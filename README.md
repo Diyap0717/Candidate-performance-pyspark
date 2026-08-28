@@ -1,6 +1,8 @@
 # Scalable Student Grade Classification with PySpark
 
-A distributed machine-learning workflow for classifying student grades using **Apache Spark (PySpark)**. The project combines data cleaning, exploratory analysis, class-imbalance handling, categorical feature encoding, multiclass model benchmarking, feature analysis, and a proposed AWS deployment architecture.
+A distributed machine learning project that uses PySpark to process student performance data, address severe class imbalance, engineer features, compare multiclass classification models, and evaluate factors associated with academic outcomes. The project was developed to explore how a scalable data-processing and machine-learning workflow can be applied to student performance analysis.
+
+Key areas: Distributed Data Processing · PySpark ML · Feature Engineering · Class Imbalance · Model Comparison · Model Evaluation · AWS Architecture
 
 > **Important methodological note:** The original course analysis achieved very high test performance, but `total_score` is directly tied to the subject scores and the grade thresholds. That makes it a target-leakage variable for a genuine early-prediction use case. Rather than hiding this limitation, this repository documents it as a central finding and separates the reported course results from what would be required for a leakage-free production model.
 
