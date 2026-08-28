@@ -152,6 +152,3 @@ The repository does not claim a fully reproducible run because the original data
 
 **Data Science:** exploratory analysis, feature relationships, imbalance analysis, model interpretation, and identification of target leakage.
 
-## Course context
-
-Originally completed as a final project for **CSC 555 – Mining Big Data** during an MS Data Science program.
