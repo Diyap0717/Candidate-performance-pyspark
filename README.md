@@ -4,8 +4,6 @@ A distributed machine learning project that uses PySpark to process student perf
 
 Key areas: Distributed Data Processing · PySpark ML · Feature Engineering · Class Imbalance · Model Comparison · Model Evaluation · AWS Architecture
 
-> **Important methodological note:** The original course analysis achieved very high test performance, but `total_score` is directly tied to the subject scores and the grade thresholds. That makes it a target-leakage variable for a genuine early-prediction use case. Rather than hiding this limitation, this repository documents it as a central finding and separates the reported course results from what would be required for a leakage-free production model.
-
 ## Why this project
 
 The course project was designed to explore how distributed data processing and Spark ML can be combined into a repeatable classification workflow for student academic outcomes. The work uses a 10,000-row student-performance dataset and predicts five grade categories: **A, B, C, D, and Fail**.
